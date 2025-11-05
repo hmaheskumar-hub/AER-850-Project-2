@@ -1,0 +1,16 @@
+{
+  "img_size": [
+    500,
+    500
+  ],
+  "batch_size": 32,
+  "epochs": 20,
+  "optimizer": "Adam(1e-4)",
+  "loss": "categorical_crossentropy",
+  "augment": {
+    "flip": "H",
+    "rot": 0.05,
+    "zoom": 0.08,
+    "translate": 0.05
+  }
+}
